@@ -1,0 +1,232 @@
+/*#Saludo {
+    color: rgb(0, 55, 128);
+    text-align: center;
+    border: 2px solid mediumorchid;
+    font-size: 3em; /* Esto hará el texto mucho más grande 
+    animation: scale-up-vertical-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}*/
+
+/* Y mantienes el código @keyframes aparte */
+/*
+.vestidos-contenedor {
+    display: flex;  Convierte el contenedor en un contenedor flexible 
+    justify-content: space-around;  Distribuye los elementos uniformemente con espacio entre ellos 
+    align-items: flex-start;  Alinea los elementos en la parte superior del contenedor 
+}*/
+
+/*.vestido-item:last-child {
+    border: 2px solid maroon;  Contorno rojo SOLO para el último vestido-item 
+}*/
+
+/*
+.whatsapp-button {
+    
+    padding: 0; /* Elimina el padding para que la imagen ocupe todo el espacio 
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    /* Define un ancho y alto explícito para el botón si quieres controlar su tamaño final 
+    width: 70px; /* Ejemplo: un ancho para el botón 
+    height: 70px; /* Ejemplo: un alto para el botón 
+    display: flex; /* Añade esto para que la imagen se centre bien si usas padding mínimo 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.whatsapp-img {
+    width: 100%;  /* La imagen ocupará el 100% del ancho de su padre 
+    height: 100%; /* La imagen ocupará el 100% del alto de su padre
+    object-fit: contain; /* Ajusta la imagen dentro del contenedor sin cortarla. Puedes usar 'cover' si prefieres que cubra todo y se corte un poco 
+}*/
+
+/*#Saludo {
+    color: rgb(0, 55, 128);
+    /* text-align: center; -- Ya no es necesario si el contenedor tiene justify-content: center 
+    border: 2px solid mediumorchid;
+    font-size: 3em;
+    animation: scale-up-vertical-center 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    padding: 10px 20px; /* Agregado para que el borde se vea mejor alrededor del texto 
+}*/
+
+
+@keyframes scale-up-vertical-center {
+    0% {
+        transform: scaleY(.4);
+    }
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+#VESTIDOS1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+
+#MAQUILLAJES1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+#ACCESORIOS1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+#NOVEDADES1{
+    text-align: center;
+    font-size: 3em;
+    color: black; /* Color base blanco o muy claro */
+    text-shadow:0 0 7px #fff,       /* Sombra blanca central */
+        0 0 10px #fff,      /* Más sombra blanca */
+        0 0 21px #fff,      /* Sombra blanca más grande */
+        0 0 42px #ff007f,      /* Color neón (ciano brillante) */
+        0 0 82px #ff007f,      /* Más del color neón */
+        0 0 92px #ff007f,      /* Sombra grande del color neón */
+        0 0 102px #ff007f,     /* Sombra muy grande del color neón */
+        0 0 151px #ff007f;     /* Sombra gigante del color neón */
+}
+
+
+
+
+.bienvenida-container {
+    
+    background-color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    display: flex; /* Permite que los elementos hijos se alineen en fila */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente en el contenedor */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+    
+}
+
+.logo-bienvenida {
+    /*border: 2px solid blue; /* Contorno azul por defecto */
+    /* Espacio entre la imagen y el texto */
+    /* Puedes añadir más estilos para tu imagen si es necesario */
+    width: 150px;
+    height: 150px;
+}
+
+.secciones-buttom{
+    color: inherit; /* Hereda el color del texto del padre si lo deseas */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    margin-left: 200px;
+    /*border: 2px solid blue; /* Contorno azul por defecto */
+    
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Esto oculta la barra de desplazamiento horizontal */
+    background-image: url('imagenes/fondo2.jpg'); /* Reemplaza 'URL_DE_TU_IMAGEN.jpg' por la ruta de tu archivo de imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Escala la imagen para que cubra toda el área del fondo */
+    background-position: center center; /* Centra la imagen en la página */
+    background-attachment: scroll; /* Hace que la imagen se desplace con el contenido (esto es lo que quieres) */
+}
+
+.vestido-item {
+    background-color: white;
+    text-align: center;
+    /*border: 2px solid blue; /* Contorno azul por defecto */
+    padding: 10px;
+    margin: 10px;
+}
+.vestidos-contenedor {
+    
+    margin-top: 50px; /* Esto agrega 50 píxeles de espacio arriba del contenedor */
+    margin-bottom: 50px; /* Esto agrega 50 píxeles de espacio debajo del contenedor */
+    /*border: 2px solid red; /* Contorno rojo por defecto */
+    display: flex; /* Alinea los elementos hijos en una fila */
+    justify-content: space-around; /* Distribuye el espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+.imagen-galeria {
+   
+    width: 340px;
+    height: 350px;
+    
+}
+
+.maquillaje-item {
+    background-color: white;
+    text-align: center;
+    /*border: 2px solid blue; /* Contorno azul por defecto */
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.maquillaje-contenedor{
+    margin-top: 50px; /* Esto agrega 50 píxeles de espacio arriba del contenedor */
+    margin-bottom: 50px; /* Esto agrega 50 píxeles de espacio debajo del contenedor */
+   /* border: 2px solid red; /* Contorno rojo por defecto */
+    display: flex; /* Alinea los elementos hijos en una fila */
+    justify-content: space-around; /* Distribuye el espacio entre los elementos */
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+}
+
+.maquillaje-galeria{
+    width: 300px;
+    height: 250px;
+}
+
+.logos-contenedor{
+
+    flex-direction: column; /* Apila los elementos verticalmente */
+
+    display: flex; /* Alinea los elementos hijos en una fila */
+    
+    /*border: 2px solid red;*/
+    justify-content: space-around; /* Distribuye el espacio entre los elementos */
+    position: fixed; /* Esto fija el elemento en relación con la ventana del navegador */
+    bottom: 0px; /* Lo coloca a 20 píxeles del borde inferior de la pantalla */
+    right: -195px; /* Lo coloca a 20 píxeles del borde derecho de la pantalla */
+    width: 250px; /* Dale un ancho específico para que no ocupe toda la pantalla */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    
+    padding: 0px 15px; /* Un poco de espacio para que los logos no toquen el borde */
+}
+
+.logo-buttom{
+    margin-top: 2px; /* Esto agrega 50 píxeles de espacio arriba del contenedor */   
+    /*border: 2px solid black;*/
+}
+
+
